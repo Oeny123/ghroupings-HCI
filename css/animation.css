@@ -64,7 +64,7 @@
 /*about*/
 /*feedback*/
 .box1 {
-    transform: translateY(70px);
+    transform: translateY(100px);
 }
 .post {
     transition: 1s;
