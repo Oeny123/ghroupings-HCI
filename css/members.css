@@ -86,6 +86,6 @@ iframe {
         flex-direction: column;
     }
     .box {
-        width: 100%;
+        width: 80%;
     }
 }
