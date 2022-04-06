@@ -1,0 +1,47 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 40vh;
+}
+body {
+    background-image: url(imgs/waves\ by\ sora6kq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    width: 90%;
+    margin: auto; 
+}
+.sticky{
+    margin-top: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 20px 20px 20px 20px ;
+    background-color: rgba(0, 255, 255, 0.1);
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.a-nav {
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 2px 2px 2px 2px;
+    font-weight:900;
+    border-radius: 5px;
+}
+
+::selection {
+    background-color: rgba(0, 255, 255, 0.3);
+    color: black;
+}
+@media (max-width: 850px) {
+    .sticky {
+        background-color: rgba(77, 77, 126, 0.7);
+    }
+}

@@ -1,0 +1,151 @@
+
+/*tramfromer*/
+.transform {
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+/*navigation*/
+/*home*/
+.logo {
+    transition: transform cubic-bezier(0.68, -0.55, 0.265, 1.55) 1500ms;
+}
+.logo:hover {
+    transform:rotate(-360deg)
+}
+.home-tittle-con:hover .home-tittle {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/*link*/
+.a-nav {
+    transition:  ease-in 500ms;
+}
+.a-nav:hover {
+    background-color: white;
+    color: black;
+}
+/*Members*/
+.box:hover {
+    box-shadow: 0 0 10px;
+}
+.leader:hover  {
+    transform: scale(1.1);
+    background-color: gold;
+}
+.v-leader:hover  {
+    transform: scale(1.1);
+    background-color: silver;
+}
+.member:hover  {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+/*topics*/
+.topic:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.topic1:hover {
+    background-color: gold;
+    opacity: 100%;
+}
+.topic2:hover {
+    background-color: silver;
+}
+.topic:hover img{
+    border-radius: 0px;
+    opacity: 100%;
+}
+.topic3:hover a{
+    border-radius: 0px;
+    opacity: 100%;
+    color: white;
+}
+/*about*/
+/*feedback*/
+.box1 {
+    transform: translateY(70px);
+}
+.post {
+    transition: 1s;
+}
+.post:hover {
+    background-color: aqua;
+    color: black;
+}
+/*pages*/
+.member-name-con:hover .member-name {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.tittle-con:hover .tittle {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.intro-con:hover .intro {
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.box1-con:hover .box1 {
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.box2-con:hover .box2 {
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+/*Joloan*/
+.joloan-tittle-con:hover .joloan-tittle {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 5px outset white;
+}
+.content:hover  {
+    transform: scale(1.020);
+    background-color: rgb(0,0,154);
+    color: white;
+    border: 5px outset yellow;
+}
+.sub-pics:hover {
+    border: 5px outset yellow;
+	background-color: rgb(0,0,154); 
+    transform: scale(1.10);
+}
+/*fuentes*/
+.fuentes-tittle-con:hover .fuentes-tittle {
+    transform: scale(1.1);
+    background-color: #080e3088;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fuentes-intro {  
+    transition-duration: 500ms;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+    
+}
+.fuentes-intro-con:hover .fuentes-intro {
+    transform: scale(1.050);
+    color: white;
+    background-color: #080e3088;
+}
+.fuentes-intro-con:hover .fuentes-intro h1 {
+    color: red;
+}
+.fuentes-transform {
+    transition-duration: 500ms;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 500ms;
+}
+.fuentes-box1-con:hover .fuentes-box1 {
+    transform: scale(1.050);
+    color: white;
+    background-color: #080e3088;
+}
+.fuentes-box1-con:hover .fuentes-box1 h1 {
+    color: red;
+}
+.fuentes-box2-con:hover .fuentes-box2 {
+    transform: scale(1.050);
+    color: white;
+    background-color: #080e3088;
+}
+.fuentes-box2-con:hover .fuentes-box2 h1 {
+    color: red;
+}

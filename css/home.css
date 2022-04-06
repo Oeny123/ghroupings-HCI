@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    align-items: center;   
+}
+.box1-con {
+    width: 50%;
+    color: white;
+}
+.home-tittle {
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+summary {
+    text-decoration: underline;
+    cursor:pointer;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+.members {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.box2-con {
+    width: 50%;
+}
+.logo-con {
+    text-align: center;
+}
+
+@media (max-width: 725px) {
+    .container {
+        flex-direction: column;
+    }
+    .logo {
+        width: 100%;
+    }
+    .box2-con {
+        width: 90%;
+    }
+    .box1-con {
+        width: 90%;
+    }
+}

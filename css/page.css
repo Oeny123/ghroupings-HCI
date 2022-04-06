@@ -1,0 +1,126 @@
+body {
+    background-image: url(imgs/251376837_268467848628764_2302747429284368938_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+b {
+    text-decoration: underline;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3PX;
+    border-color: black;    
+}
+.member-name-con {
+    width: 230px;
+}
+.member-name {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    padding: 3px 3px 3px 3px;  
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;  
+}
+.tittle {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+/*Fleb Box vertical*/
+.container {
+    display: flex;
+    flex-direction: row;  
+}
+.intro {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.box1-con  {
+    width: 48%;
+    margin: auto;
+}
+.box1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.container .box1 p {
+    padding: 5px 5px 5px 5px;
+}
+.box2-con {
+    width: 48%;
+    margin: auto;
+}
+.box2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+.container .box2 p {
+    padding: 5px 5px 5px 5px;
+}
+/*Joloan*/
+.joloan-wrapper{
+    width: 90%;
+    margin: auto;
+}
+.joloan-pics {
+    border: 5px outset yellow;
+	background-color: rgb(0,0,154); 
+}
+.sub-pics-con {
+    float: right;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sub-pics {
+    width: 100%;
+    
+}
+.content-con{
+    width: 100%;
+    font-style: italic;
+    display: flex;
+}
+.content{
+    text-align: center;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin: auto;
+}
+/*fuentes*/
+.fuentes-intro {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.fuentes-box1-con {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+.fuentes-box1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin-left: auto;
+}
+.fuentes-box2-con {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fuentes-box2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}

@@ -1,0 +1,73 @@
+h1 {
+    background-color: rgba(95, 158, 160, 0.8);
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.boxs1 {
+    width: 45%;
+    margin-left: auto;
+}
+
+.box1 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    padding: 10px 10px 10px 10px ;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    top: 0;
+    position: sticky;
+}
+.name {
+    background-color: gray;
+    border: 0;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;   
+}
+textarea {
+    width: 90%;
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    border: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.post {
+    background-color: gray;
+    border: 10px;
+    width: 10%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+.boxs2 {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+.box2 {
+    width: 95%;
+    margin: auto;
+}
+.box2 h3 {
+    text-align: center;
+}
+@media (max-width: 850px) {
+    .container {
+        flex-direction: column;
+    }
+    .f-box {
+        width: 100%;
+    }
+}
