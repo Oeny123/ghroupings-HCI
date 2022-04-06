@@ -49,6 +49,9 @@ textarea {
     padding-bottom: 3px;
     border-radius: 10px;
 }
+.art-pad {
+    height: 20px;
+}
 .boxs2 {
     width: 45%;
     margin-left: auto;
