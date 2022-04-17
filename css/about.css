@@ -33,6 +33,9 @@ main {
 .about-box4 {
     background-image: url(imgs/topic/lausa.jpeg);
 }
+.about-box5 {
+    background-image: url(imgs/topic/rhen.jpg);
+}
 p {
     font-size: 1.3rem;
 }
