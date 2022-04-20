@@ -36,6 +36,9 @@ main {
 .about-box5 {
     background-image: url(imgs/topic/rhen.jpg);
 }
+.about-box6 {
+    background-image: url(imgs/topic/moissan.png);
+}
 p {
     font-size: 1.3rem;
 }
