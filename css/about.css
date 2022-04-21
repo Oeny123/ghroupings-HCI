@@ -42,6 +42,12 @@ main {
 .about-box7 {
     background-image: url(imgs/topic/marjoriee.png);
 }
+.about-box8 {
+    background-image: url(imgs/topic/tuazon.png);
+}
+.about-box9 {
+    background-image: url(imgs/topic/garcia.jpg);
+}
 p {
     font-size: 1.3rem;
 }
